@@ -4,15 +4,15 @@ function Form()
 {
     const cadastrar = (evento) => {
         evento.preventDefault();
-        console.log(`O ususario ${name} & ${password} foi cadastrado com sucesso!`);
+        console.log(`O ususario ${name} -> ${msg} foi cadastrado com sucesso!`);
     }
 
     const [name='', setName] = useState();
-    const [password='', setPassword] = useState();
+    const [msg='', setMsg] = useState();
     return(
         <div>
             <h1>
-                Meu Cadastro:
+                Mensagem:
             </h1>
 
             <form onSubmit={cadastrar}>
@@ -22,8 +22,8 @@ function Form()
                 </div>
 
                 <div>
-                    <label htmlFor='password'> Senha: </label>
-                    <input type='text' id='password' name='password'onChange={(e) => setPassword(e.target.value)}/>
+                    <label htmlFor='msg'> Mensagem: </label>
+                    <input type='text' id='msg' name='msg'onChange={(e) => setMsg(e.target.value)}/>
                 </div>
 
                 <div>
