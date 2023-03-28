@@ -1,6 +1,6 @@
-function Evento(){
+function Evento({numero}){
     const meuEvento = () =>{
-        console.log("Opa fui ativado!")
+        console.log(`Opa fui ativado${numero}!`);
     }
     return(
         <>
