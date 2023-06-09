@@ -11,3 +11,9 @@
 
 *Inicia o servidor de desenvolvimento:*
 	$~> npm start
+
+*Instala o pacote React Router para rederização de diferentes paginas*
+	$~> npm i react-router-dom
+
+*Instala o pacote React Icons para importação de icones*
+	$~> npm i react-icons
