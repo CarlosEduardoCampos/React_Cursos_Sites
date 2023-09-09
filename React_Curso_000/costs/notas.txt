@@ -1,0 +1,14 @@
+# Inicia o projeto:
+    $~ npx create-react-app <nome da pasta>
+
+# Biblioteca para conexão com api:
+    $~ npm install json-server
+
+# Pacode de icones:
+    $~ npm install react
+
+# 
+    $~ npm install react-router-dom
+
+# Biblioteca para gerar id:
+    $~ npm install uuid

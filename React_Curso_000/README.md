@@ -17,3 +17,9 @@
 
 *Instala o pacote React Icons para importação de icones*
 	$~> npm i react-icons
+
+*Responsavel por fazer requisição a api e mandar os dados para mesma*
+	$~> npm i json-server
+
+*Cria ids para o projeto*
+	$~> npm react-router-dom uuid
