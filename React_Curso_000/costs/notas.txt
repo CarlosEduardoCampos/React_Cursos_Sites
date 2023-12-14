@@ -12,3 +12,6 @@
 
 # Biblioteca para gerar id:
     $~ npm install uuid
+
+# Inicia o Sevidor de dados:
+    $~ npm run backend db.json
